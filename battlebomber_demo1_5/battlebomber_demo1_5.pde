@@ -481,7 +481,7 @@
         image (background, 0, 0, 21 * multiplyer, 21 * multiplyer);
         fill(0, 0, 0);
         textSize(multiplyer);
-        text("You won!", 8 * multiplyer, 5 * multiplyer);
+        text("You won! Scored: " + score, 8 * multiplyer, 5 * multiplyer);
         text("Wanna play again ?", 8 * multiplyer, 7 * multiplyer);
 
         if(mouseX < 8.5 * multiplyer && mouseX > 3.5 * multiplyer && mouseY < 14 * multiplyer && mouseY > 12 * multiplyer){
@@ -510,7 +510,7 @@
         image (background, 0, 0, 21 * multiplyer, 21 * multiplyer);
         fill(0, 0, 0);
         textSize(multiplyer);
-        text("You Lost!", 8 * multiplyer, 5 * multiplyer);
+        text("You Lost! Score: " + score, 8 * multiplyer, 5 * multiplyer);
         text("Wanna play again ?", 8 * multiplyer, 7 * multiplyer);
 
         if(mouseX < 8.5 * multiplyer && mouseX > 3.5 * multiplyer && mouseY < 14 * multiplyer && mouseY > 12 * multiplyer){
