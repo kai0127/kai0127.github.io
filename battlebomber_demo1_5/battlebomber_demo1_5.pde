@@ -145,7 +145,7 @@
 
        wall_sky = loadImage("images/88.png");
        bomb = loadImage("images/bomb.png");
-       background = loadImage("images/56.png");
+       background = loadImage("images/00.png");
        player_skin = loadImage("images/player_start.png");
        explosion = loadImage("images/explosion.png");
        star = loadImage("images/star.png");
